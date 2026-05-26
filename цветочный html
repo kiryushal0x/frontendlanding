@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- Шапка сайта -->
     <header class="header">
         <div class="header__inner">
             <div class="header__logo">
@@ -30,7 +29,6 @@
 
     <main>
 
-        <!-- Обложка -->
         <section class="hero">
             <div class="hero__content">
                 <h2 class="hero__title">Свежие цветы<br>для любого повода</h2>
@@ -39,7 +37,6 @@
             </div>
         </section>
 
-        <!-- Карточки с товарами -->
         <section class="catalog" id="catalog">
             <div class="container">
                 <h2 class="section__title">Наш каталог</h2>
@@ -101,7 +98,6 @@
             </div>
         </section>
 
-        <!-- Аккордеон (FAQ) -->
         <section class="faq" id="faq">
             <div class="container">
                 <h2 class="section__title">Часто задаваемые вопросы</h2>
@@ -132,7 +128,6 @@
             </div>
         </section>
 
-        <!-- Форма обратной связи -->
         <section class="contact" id="contact">
             <div class="container">
                 <h2 class="section__title">Напишите нам</h2>
@@ -177,7 +172,6 @@
 
     </main>
 
-    <!-- Подвал -->
     <footer class="footer">
         <div class="container">
             <p class="footer__text">© 2025 Цветочный Рай. Все права защищены.</p>
