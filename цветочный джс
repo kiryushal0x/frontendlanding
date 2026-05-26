@@ -41,13 +41,11 @@ accordionBtns.forEach(function (btn) {
         var content = btn.nextElementSibling;
         var isOpen = btn.classList.contains('active');
 
-        // Закрываем все элементы
         accordionBtns.forEach(function (otherBtn) {
             otherBtn.classList.remove('active');
             otherBtn.nextElementSibling.classList.remove('open');
         });
 
-        // Если был закрыт — открываем
         if (!isOpen) {
             btn.classList.add('active');
             content.classList.add('open');
